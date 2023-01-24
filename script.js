@@ -18,7 +18,7 @@ function encriptar(){
 function desencriptar(){
     ocultarOtros();
     resultado.textContent = desencriptadoTexto(recuperarTexto());
-    alert(resultado);
+   
 }
 
 function recuperarTexto(){
