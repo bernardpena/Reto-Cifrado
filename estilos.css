@@ -102,19 +102,19 @@ section{
     margin-top: 20px;
     font-size: 15px;
     cursor: pointer;
-    box-shadow: 0px 0px 2px 1px red;
+    box-shadow: 0px 0px 2px 1px beige;
     
 } 
 
 .btn-Encriptar:hover{
-    background-color: aquamarine;
+    background-color: #0A3871;
     font-weight: bold;
-    color: red;
+    color: white;
 }
 .btn-Desencriptar:hover{
-    background-color: aquamarine;
+    background-color: #0A3871;
     font-weight: bold;
-    color: red; 
+    color: white; 
 }
 
 .contenedorResultado{
@@ -139,13 +139,13 @@ section{
     margin-top: 20px;
     font-size: 15px;
     cursor: pointer;
-    box-shadow: 0px 0px 2px 1px red;
+    box-shadow: 0px 0px 2px 1px beige;
 }
 
 .btn-Copiar:hover{
-    background-color: aquamarine;
+    background-color: #0A3871;
     font-weight: bold;
-    color: red; 
+    color: white; 
 }
 
 footer{
