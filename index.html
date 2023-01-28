@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js"></script>
     <title>Desafio Alura</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg"  src="img/Logo.png" alt="logo Alura">
+            <h1 class="title">Encriptador de Mensajes</h1>
+        </div>
+        <div class="left">
+            <input class="text-input" type="text"  id="inputTexto"  placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="right">
+            <img id="img-derecha" src="img/Muñeco.png" alt="muneco alura">
+            <h1 id="texto">Ningun Mensaje de Encontrado</h1>
+            <textarea name="name" id="textarea" cols="30" rows="10">Ingrese el Texto que desee Encritar</textarea>
+            <div class="contenedor-btn">
+                <button  id="copiar"  type="button" onclick="copiar()">Copiar</button>
+            </div>
+        </div>  
+        <div class="boton-izquierda">
+            <p id="nota">*Solo letras minusculas y sin acento</p>
+            <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+            
+        </div>
+    </div>
 </body>
-</html>
+</html>s 
