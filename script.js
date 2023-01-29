@@ -37,6 +37,6 @@ function copiar(){
     var contenido = document.querySelector("textarea");
     contenido.select();
     document.execCommand("copy");
-    alert("Se Copio");
+    document.querySelector(".text-input").value = "";
      
 }
